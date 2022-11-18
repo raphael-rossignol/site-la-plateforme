@@ -1,0 +1,300 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+header .logo{
+    width: 380px;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+header .logo img{
+    width: 380px;
+}
+header .navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 900px;
+    padding-top: 40px;
+}
+.banner{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #336699;
+}
+.banner .left{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 20px;
+    padding-right: 10%;
+    padding-bottom: 20px;
+    padding-left: 10%;
+    width: 50%;
+    font-size: 27px;
+    color: white;
+}
+.banner .left p{
+    padding-bottom: 2em;
+}
+
+.banner .right{
+    width: 50%;
+}
+.banner .right img{
+    width: 768px;
+    height: 768px;
+}
+.titrenum{
+    display: flex;
+    justify-content: center;
+    background-color: whitesmoke;
+    font-size: 40px;
+    color: #336699;
+    padding-bottom: 50px;
+    padding-top: 40px;
+}
+.jobnum{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: whitesmoke;
+}
+.jobnum p{
+    padding-bottom: 10px;
+}
+.jobnum .left{
+    display:flex ;
+    flex-direction: column;
+    background-color: white;
+    font-size: 19px;
+    color: #336699;
+    background-color: #ffffff;
+    padding-top: 30px;
+    padding-right: 40px;
+    padding-bottom: 30px;
+    padding-left: 40px;
+}
+.jobnum .left .para{
+    padding-bottom: 20px;
+}
+.jobnum .middle .para{
+    padding-bottom: 20px;
+}
+.jobnum .right .para{
+    padding-bottom: 20px;
+}
+.jobnum .left img{
+    display: flex;
+    justify-content: center;
+    max-width: 100px;
+    height: 100px;
+    padding-bottom: 20px;
+}
+.jobnum .middle{
+    display:flex ;
+    flex-direction: column;
+    background-color: white;
+    font-size: 19px;
+    color: #336699;
+    background-color: #ffffff;
+    padding-top: 30px;
+    padding-right: 40px;
+    padding-bottom: 30px;
+    padding-left: 40px;
+}
+.jobnum .middle img{
+    display: flex;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    padding-bottom: 20px;
+}
+.jobnum .right{
+    display:flex ;
+    flex-direction: column;
+    background-color: white;
+    font-size: 19px;
+    color: #336699;
+    background-color: #ffffff;
+    padding-top: 30px;
+    padding-right: 40px;
+    padding-bottom: 30px;
+    padding-left: 40px;
+}
+.jobnum .right img{
+    display: flex;
+    justify-content: center;
+    max-width: 100px;
+    height: 100px;
+    padding-bottom: 20px;
+}
+.titretrans{
+    display: flex;
+    justify-content: center;
+    background-color: whitesmoke;
+    padding-top: 50px;
+    padding-bottom: 40px;
+    color: #336699;
+}
+.trans{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    justify-content: center;
+    background-color: whitesmoke;
+    color: #336699;
+}
+.trans p{
+    font-size: 19px;
+    padding-right: 120px;
+    padding-bottom: 30px;
+}
+.trans img{
+    height: 100px;
+    width: 100px;
+    padding-right: 30px;
+    padding-left: 120px;
+    padding-bottom: 30px;
+    padding-top: 20px;
+}
+.trans h3{
+    padding-bottom: 10px;
+    font-size: 22px;
+    padding-top: 20px;
+}
+.trans .trans1{
+    display: flex;
+    flex-direction: row;
+    background-color: whitesmoke;
+    padding: 60px;
+
+}
+.trans .trans1 .text{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+.trans .trans1 .logo{
+    background-color: white;
+}
+.trans .trans2{
+    display: flex;
+    flex-direction: row;
+    background-color: whitesmoke;
+    padding: 60px;
+
+}
+.trans .trans2 .text{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+.trans .trans2 .logo{
+    background-color: white;
+}
+.trans .trans3{
+    display: flex;
+    flex-direction: row;
+    background-color: whitesmoke;
+    padding: 60px;
+
+}
+.trans .trans3 .text{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+.trans .trans3 .logo{
+    background-color: white;
+}
+.titretemoin{
+    display: flex;
+    justify-content: center;
+    background-color: orange;
+    color: white;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-size: 40px;
+}
+.temoin .text{
+    display: flex;
+    justify-content: center;
+    background-color: orange;
+    color: white;
+    font-size: 19px;
+}
+.temoinbanner{
+    display: flex;
+    flex-direction: row;
+    background-color: orange;
+    color: white;
+}
+.temoinbanner .left{
+    width: 60%;
+    padding: 40px;
+}
+.temoinbanner .right{
+    width: 60%;
+    padding: 40px;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: rgb(49, 48, 48);
+}
+footer a{
+    font-size: 17px;
+    padding-bottom: 20px;
+    text-decoration: none;
+    color: white;
+}
+footer h3{
+    padding-bottom: 20px;
+}
+footer .logo{
+    height: 61px;
+    width: 340px;
+    padding-top: 100px;
+    padding-right: 180px;
+}
+footer .list1{
+    padding-top: 40px;
+}
+footer .list2{
+    padding-top: 40px;
+}
+footer .list3{
+    padding-top: 40px;
+}
+footer .logo{
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+footer .list1{
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+footer .list2{
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+footer .list3{
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
